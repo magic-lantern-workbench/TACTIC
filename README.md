@@ -49,6 +49,7 @@ We are always encouraging people to contribute to the project.  This can be in a
 ## Installation
 
 Magic Lantern Workbench download packages are still in development.
+
 For detailed installation instructions, the [TACTIC System Administration](https://magic-lantern-workbench.github.io/TACTIC/book/doc/doc_tactic-sys-admin/html/index.html) documentation is useful
 
 
