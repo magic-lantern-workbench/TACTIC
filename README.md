@@ -66,7 +66,7 @@ Getting started is easy.  You can start up quickly with an official VM distribut
 
 ## Documentation
 
-Detailed [documentation](https://magic-lantern-workbench.github.io/TACTIC/) can be found on the community site.
+Detailed [documentation](https://magic-lantern-workbench.github.io/TACTIC/) can be found on the documentation site.
 
 There documentation is split in different sections that focus on different aspects of TACTIC:
 
