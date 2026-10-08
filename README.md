@@ -56,24 +56,24 @@ You can download the latest distributions from any of number of formats from the
 
 or you can access [earlier versions](http://community.southpawtech.com/downloads)
 
-For detailed installation instructions, the [TACTIC System Administration](http://community.southpawtech.com/docs/sys-admin/) documentation is useful
+For detailed installation instructions, the [TACTIC System Administration](https://magic-lantern-workbench.github.io/TACTIC/book/doc/doc_tactic-sys-admin/html/index.html) documentation is useful
 
 
 ## Getting Started
 
-Getting started is easy.  You can start up quickly with an official VM distribution which has the database and webserver all setup for you.  Refer to the [Quick Start Guide](http://community.southpawtech.com/docs/quick-start/) for more information:
+Getting started is easy.  You can start up quickly with an official VM distribution which has the database and webserver all setup for you.  Refer to the [Quick Start Guide](https://magic-lantern-workbench.github.io/TACTIC/book/doc/doc_tactic-quickstart/html/index.html) for more information:
 
 
 ## Documentation
 
-Detailed [documentation](http://community.southpawtech.com/community/link/docs/) can be found on the community site.
+Detailed [documentation](https://magic-lantern-workbench.github.io/TACTIC/) can be found on the community site.
 
 There documentation is split in different sections that focus on different aspects of TACTIC:
 
-1. [Quick Start](http://community.southpawtech.com/docs/quick-start/): quick overview of how what to do to get up and running
-1. [System Administration](http://community.southpawtech.com/docs/sys-admin/): detailed description of installation and connections to database and other external services.
-1. [Setup](http://community.southpawtech.com/docs/setup/): description of how to set up a TACTIC project for end users to work on.
-1. [Developer](http://community.southpawtech.com/docs/developer/): documention for developers to customize TACTIC and access the API.
+1. [Quick Start](https://magic-lantern-workbench.github.io/TACTIC/book/doc/doc_tactic-quickstart/html/index.html): quick overview of how what to do to get up and running
+1. [System Administration](https://magic-lantern-workbench.github.io/TACTIC/book/doc/doc_tactic-sys-admin/html/index.html): detailed description of installation and connections to database and other external services.
+1. [Setup](https://magic-lantern-workbench.github.io/TACTIC/book/doc/doc_tactic-setup/html/index.html): description of how to set up a TACTIC project for end users to work on.
+1. [Developer](https://magic-lantern-workbench.github.io/TACTIC/book/doc/doc_tactic-developer/html/index.html): documention for developers to customize TACTIC and access the API.
 
 
 
@@ -97,7 +97,7 @@ let server = TACTIC.get();
 server.update(shot_key, {'status', 'Complete'})
 ```
 
-Complete documentation can be found on the [TACTIC Developer Documentation](http://community.southpawtech.com/docs/developer)
+Complete documentation can be found on the [TACTIC Developer Documentation](https://magic-lantern-workbench.github.io/TACTIC/book/doc/doc_tactic-developer/html/index.html)
 
 ## Resources
 
