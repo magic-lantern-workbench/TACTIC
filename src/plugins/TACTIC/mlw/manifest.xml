@@ -1,0 +1,11 @@
+<manifest>
+  <data>
+    <code>TACTIC/mlw</code>
+    <title>MLW</title>
+    <description>TACTIC Open Source MLW Template</description>
+  </data>
+  <!-- Plugins -->
+  <plugin code="stypes"/>
+  <plugin code="config"/>
+</manifest>
+

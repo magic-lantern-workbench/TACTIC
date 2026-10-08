@@ -1,0 +1,34 @@
+<manifest>
+  <data>
+    <code>TACTIC/mlw/stypes</code>
+    <title>MLW Search Types</title>
+    <description>Search Types for TACTIC MLW Open Source</description>
+  </data>
+  <search_type code="prod/session_contents"/>
+  <search_type code="mlw/art_reference"/>
+  <search_type code="mlw/asset"/>
+  <search_type code="mlw/asset_category"/>
+  <search_type code="mlw/asset_in_episode"/>
+  <search_type code="mlw/asset_in_sequence"/>
+  <search_type code="mlw/asset_in_shot"/>
+  <search_type code="mlw/asset_type"/>
+  <search_type code="mlw/camera"/>
+  <search_type code="mlw/episode"/>
+  <search_type code="mlw/layer"/>
+  <search_type code="mlw/leica"/>
+<!--
+    <search_type code="mlw/naming"/>
+-->
+  <search_type code="mlw/node_data"/>
+  <search_type code="mlw/plate"/>
+  <search_type code="mlw/render"/>
+  <search_type code="mlw/review"/>
+  <search_type code="mlw/schedule"/>
+  <search_type code="mlw/script"/>
+  <search_type code="mlw/sequence"/>
+  <search_type code="mlw/shot"/>
+  <search_type code="mlw/shot_texture"/>
+  <search_type code="mlw/storyboard"/>
+  <search_type code="mlw/submission"/>
+  <search_type code="mlw/texture"/>
+</manifest>

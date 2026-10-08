@@ -1,0 +1,55 @@
+#-- Start Entry --#
+insert = SearchType.create('sthpw/schema')
+insert.set_value('code', """mlw""")
+insert.set_value('description', """Schema for project [mlw]""")
+insert.set_value('project_code', """mlw""")
+insert.set_value('schema', """<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+  <search_type name="prod/session_contents" type="manual" xpos="1251" ypos="441"/>
+  <search_type name="sthpw/snapshot" type="manual" xpos="100" ypos="180"/>
+  <search_type name="mlw/art_reference" type="manual" xpos="412" ypos="180"/>
+  <search_type name="mlw/asset" type="manual" xpos="624" ypos="252"/>
+  <search_type name="mlw/asset_category" type="manual" xpos="624" ypos="104"/>
+  <search_type name="mlw/asset_in_episode" type="manual" xpos="780" ypos="104" display="{@GET(mlw/asset.code)}"/>
+  <search_type name="mlw/asset_in_sequence" type="manual" xpos="780" ypos="180" display="{@GET(mlw/asset.code)}"/>
+  <search_type name="mlw/asset_in_shot" type="manual" xpos="780" ypos="252" display="{@GET(mlw/asset.code)}"/>
+  <search_type name="mlw/asset_type" type="manual" xpos="735" ypos="346"/>
+  <search_type name="mlw/camera" type="manual" xpos="1247" ypos="506"/>
+  <search_type name="mlw/episode" type="manual" xpos="928" ypos="104"/>
+  <search_type name="mlw/layer" type="manual" xpos="1008" ypos="352"/>
+  <search_type name="mlw/leica" type="manual" xpos="412" ypos="336"/>
+  <search_type name="mlw/node_data" type="manual" xpos="1172" ypos="744"/>
+  <search_type name="mlw/plate" type="manual" xpos="1068" ypos="256"/>
+  <search_type name="mlw/render" type="manual" xpos="612" ypos="436"/>
+  <search_type name="mlw/review" type="manual" xpos="244" ypos="100"/>
+  <search_type name="mlw/schedule" type="manual" xpos="248" ypos="256"/>
+  <search_type name="mlw/script" type="manual" xpos="412" ypos="100"/>
+  <search_type name="mlw/sequence" type="manual" xpos="928" ypos="180"/>
+  <search_type name="mlw/shot" type="manual" xpos="928" ypos="252"/>
+  <search_type name="mlw/shot_texture" type="manual" xpos="861" ypos="347"/>
+  <search_type name="mlw/storyboard" type="manual" xpos="408" ypos="240"/>
+  <search_type name="mlw/submission" type="manual" xpos="244" ypos="180"/>
+  <search_type name="mlw/texture" type="manual" xpos="616" ypos="343"/>
+  <connect from="mlw/asset" to="mlw/asset_category" relationship="code" from_col="asset_category" to_col="code"/>
+  <connect from="mlw/asset" to="mlw/asset_type" relationship="code" from_col="asset_type" to_col="code"/>
+  <connect from="mlw/asset_in_episode" to="mlw/asset" relationship="code" from_col="asset_code" to_col="code"/>
+  <connect from="mlw/asset_in_episode" to="mlw/episode" relationship="code" from_col="episode_code" to_col="code"/>
+  <connect from="mlw/asset_in_sequence" to="mlw/asset" relationship="code" from_col="asset_code" to_col="code"/>
+  <connect from="mlw/asset_in_sequence" to="mlw/sequence" relationship="code" from_col="sequence_code" to_col="code"/>
+  <connect from="mlw/asset_in_shot" to="mlw/shot" relationship="code" from_col="shot_code" to_col="code"/>
+  <connect from="mlw/asset_in_shot" to="mlw/asset" relationship="code" from_col="asset_code" to_col="code"/>
+  <connect from="mlw/layer" to="mlw/shot" relationship="code" type="hierarchy"/>
+  <connect from="mlw/plate" to="mlw/shot" relationship="code" type="hierarchy" from_col="shot_code" to_col="code"/>
+  <connect from="mlw/sequence" to="mlw/episode" relationship="code" type="hierarchy"/>
+  <connect from="mlw/shot" to="mlw/sequence" relationship="code" type="hierarchy"/>
+  <connect from="mlw/shot_texture" to="mlw/shot" relationship="search_type" type="hierarchy"/>
+  <connect from="mlw/submission" to="mlw/review" relationship="code" from_col="review_code" to_col="code"/>
+  <connect from="mlw/submission" to="sthpw/snapshot" relationship="code" from_col="snapshot_code" to_col="code"/>
+  <connect from="mlw/texture" to="mlw/asset" relationship="code" type="hierarchy"/>
+  <connect to="*" from="mlw/render" type="hierarchy" relationship="search_type"/>
+  <connect from="mlw/composite" to="mlw/shot" relationship="code" type="hierarchy"/>
+</schema>
+""")
+insert.set_value('timestamp', """2011-10-20 19:24:48""")
+#-- End Entry --#
+

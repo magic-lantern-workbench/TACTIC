@@ -1,0 +1,20 @@
+#-- Start Entry --#
+insert = SearchType.create('sthpw/search_object')
+insert.set_value('code', """mlw/asset_type""")
+insert.set_value('description', """Asset Type""")
+insert.set_value('database', """{project}""")
+insert.set_value('class_name', """pyasm.search.SObject""")
+insert.set_value('title', """Asset Type""")
+insert.set_value('namespace', """mlw""")
+insert.set_value('search_type', """mlw/asset_type""")
+insert.set_value('table_name', """asset_type""")
+insert.set_value('schema', """public""")
+#-- End Entry --#
+
+#-- Start Entry --#
+table = CreateTable('mlw/asset_type')
+table.add('code',                     'varchar', length=30, not_null=True )
+table.add('description',              'text' )
+table.add('id',                       'serial', primary_key=True)
+#-- End Entry --#
+
