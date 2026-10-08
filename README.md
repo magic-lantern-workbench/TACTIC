@@ -103,7 +103,7 @@ Complete documentation can be found on the [TACTIC Developer Documentation](http
 
 For more information, visit the [community site](http://community.southpawtech.com) for TACTIC.
 
-Or participate in the [TACTIC forum](http://forum.southpawtech.com) if you have any questions.
+Or participate in the [TACTIC forum](https://github.com/magic-lantern-workbench/TACTIC/discussions) if you have any questions.
 
 There is also a collection of [YouTube videos](https://www.youtube.com/playlist?list=PLGuW4vwnoult0iXF83Y2HnkLbrTJ-3pxO) that you can browser through.
 
