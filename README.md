@@ -1,10 +1,6 @@
 
 <p align="center">
-  <img width="400px" src="http://community.southpawtech.com/tactic/plugins/community/theme/media/TACTIC_logo.svg"/>
-</p>
-
-<p align="center">
-  <img width="600px" src="http://community.southpawtech.com/tactic/plugins/community/content/media/Showreel.gif"/>
+  <img width="400px" src="doc/github/images/TACTIC_logo.svg"/>
 </p>
 
 
