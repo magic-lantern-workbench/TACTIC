@@ -23,25 +23,25 @@ TACTIC has a number of key components:
 * **Workflow Engine and Manager:**
 
 <p align="center">
-  <img width="400px" src="https://southpawtech.com/wp-content/uploads/2020/03/online_workflow-1024x480.png"/>
+  <img width="400px" src="doc/github/images/simple_shot_workflow.png"/>
 </p>
 
 * **Data Management**
 
 <p align="center">
-  <img width="400px" src="http://community.southpawtech.com/tactic/plugins/community/content/media/vfx_data_model.png"/>
+  <img width="400px" src="doc/github/images/vfx_data_model.png"/>
 </p>
 
 * **Digital Asset Manager**
 
 <p align="center">
-  <img width="400px" src="http://community.southpawtech.com/tactic/plugins/community/content/media/collections.jpg"/>
+  <img width="400px" src="doc/github/images/video_review.png"/>
 </p>
 
 * **Web Framework**
 
 <p align="center">
-  <img width="400px" src="http://community.southpawtech.com/tactic/plugins/community/content/media/custom_layout.jpg"/>
+  <img width="400px" src="doc/book/doc/doc_tactic-developer/html/media/custom_layout_editor_overview.png"/>
 </p>
 
 
