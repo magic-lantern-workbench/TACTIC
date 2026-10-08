@@ -95,7 +95,7 @@ Complete documentation can be found on the [TACTIC Developer Documentation](http
 
 ## Resources
 
-For more information, visit the [community site](http://community.southpawtech.com) for TACTIC.
+The Southpaw Technology community site is no longer available. Please visit wizzerworks.com for additional information regarding support for TACTIC as it applies to the Magic Lantern Workbench.
 
 Or participate in the [TACTIC forum](https://github.com/magic-lantern-workbench/TACTIC/discussions) if you have any questions.
 
